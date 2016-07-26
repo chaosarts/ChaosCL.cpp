@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47711531D47A67F000D3CCF /* Env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47711511D47A67F000D3CCF /* Env.cpp */; };
+		C47711541D47A67F000D3CCF /* Env.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C47711521D47A67F000D3CCF /* Env.hpp */; };
+		C47711571D480818000D3CCF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C47711561D480818000D3CCF /* README.md */; };
+		C494DFF91D425E4A00C22E28 /* cl_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFF71D425E4A00C22E28 /* cl_base.cpp */; };
+		C494DFFA1D425E4A00C22E28 /* cl_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFF81D425E4A00C22E28 /* cl_base.hpp */; };
+		C494DFFD1D425E8400C22E28 /* cl_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFB1D425E8400C22E28 /* cl_platform.cpp */; };
+		C494DFFE1D425E8400C22E28 /* cl_platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFFC1D425E8400C22E28 /* cl_platform.hpp */; };
+		C494E0011D425F1600C22E28 /* cl_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFF1D425F1600C22E28 /* cl_device.cpp */; };
+		C494E0021D425F1600C22E28 /* cl_device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0001D425F1600C22E28 /* cl_device.hpp */; };
+		C494E0051D4261AD00C22E28 /* cl_context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0031D4261AD00C22E28 /* cl_context.cpp */; };
+		C494E0061D4261AD00C22E28 /* cl_context.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0041D4261AD00C22E28 /* cl_context.hpp */; };
+		C494E0091D42625500C22E28 /* cl_program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0071D42625500C22E28 /* cl_program.cpp */; };
+		C494E00A1D42625500C22E28 /* cl_program.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0081D42625500C22E28 /* cl_program.hpp */; };
+		C494E00D1D42629900C22E28 /* cl_kernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E00B1D42629900C22E28 /* cl_kernel.cpp */; };
+		C494E00E1D42629900C22E28 /* cl_kernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E00C1D42629900C22E28 /* cl_kernel.hpp */; };
+		C4DCF0FB1D4538F5000AD055 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4DCF0FA1D4538F5000AD055 /* main.cpp */; };
+		C4DCF1031D453920000AD055 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E71CCD13600042F055 /* OpenCL.framework */; };
+		C4DCF1041D453925000AD055 /* libChaosCL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */; };
+		C4DCF1051D453925000AD055 /* libChaosCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */; };
+		C4DCF1061D453933000AD055 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DCF0F21D453806000AD055 /* libgtest.a */; };
+		C4FAB1D81CCD13230042F055 /* ChaosCL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */; };
+		C4FAB1D91CCD13230042F055 /* ChaosCL.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */; };
+		C4FAB1E61CCD135A0042F055 /* libChaosCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */; };
+		C4FAB1E81CCD13600042F055 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E71CCD13600042F055 /* OpenCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4DCF0FF1D453902000AD055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAB1BF1CCD12C00042F055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FAB1C61CCD12C00042F055;
+			remoteInfo = ChaosCL;
+		};
+		C4DCF1011D453902000AD055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E4E6471C8F24AA00AC2C72;
+			remoteInfo = ChaosCore;
+		};
+		C4FAB1DF1CCD132C0042F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4E4E6481C8F24AA00AC2C72;
+			remoteInfo = ChaosCore;
+		};
+		C4FAB1E11CCD132C0042F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4AB85931CC4451F00A69438;
+			remoteInfo = ChaosCoreTest;
+		};
+		C4FAB1E41CCD13560042F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E4E6471C8F24AA00AC2C72;
+			remoteInfo = ChaosCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4DCF0F61D4538F5000AD055 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C436A1C11D455445005CA41B /* Device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Device.hpp; sourceTree = "<group>"; };
+		C436A1C31D4571A3005CA41B /* Context.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Context.hpp; sourceTree = "<group>"; };
+		C47711511D47A67F000D3CCF /* Env.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Env.cpp; sourceTree = "<group>"; };
+		C47711521D47A67F000D3CCF /* Env.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Env.hpp; sourceTree = "<group>"; };
+		C47711561D480818000D3CCF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C494DFF71D425E4A00C22E28 /* cl_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_base.cpp; sourceTree = "<group>"; };
+		C494DFF81D425E4A00C22E28 /* cl_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_base.hpp; sourceTree = "<group>"; };
+		C494DFFB1D425E8400C22E28 /* cl_platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_platform.cpp; sourceTree = "<group>"; };
+		C494DFFC1D425E8400C22E28 /* cl_platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_platform.hpp; sourceTree = "<group>"; };
+		C494DFFF1D425F1600C22E28 /* cl_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_device.cpp; sourceTree = "<group>"; };
+		C494E0001D425F1600C22E28 /* cl_device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_device.hpp; sourceTree = "<group>"; };
+		C494E0031D4261AD00C22E28 /* cl_context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_context.cpp; sourceTree = "<group>"; };
+		C494E0041D4261AD00C22E28 /* cl_context.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_context.hpp; sourceTree = "<group>"; };
+		C494E0071D42625500C22E28 /* cl_program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_program.cpp; sourceTree = "<group>"; };
+		C494E0081D42625500C22E28 /* cl_program.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_program.hpp; sourceTree = "<group>"; };
+		C494E00B1D42629900C22E28 /* cl_kernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_kernel.cpp; sourceTree = "<group>"; };
+		C494E00C1D42629900C22E28 /* cl_kernel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_kernel.hpp; sourceTree = "<group>"; };
+		C4DCF0F21D453806000AD055 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../../../../../../opt/local/lib/libgtest.a; sourceTree = "<group>"; };
+		C4DCF0F81D4538F5000AD055 /* ChaosCLTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChaosCLTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DCF0FA1D4538F5000AD055 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4DCF1081D4539AA000AD055 /* Platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Platform.hpp; sourceTree = "<group>"; };
+		C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libChaosCL.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChaosCL.cpp; sourceTree = "<group>"; };
+		C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChaosCL.hpp; sourceTree = "<group>"; };
+		C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChaosCore.xcodeproj; path = ../ChaosCore/ChaosCore.xcodeproj; sourceTree = "<group>"; };
+		C4FAB1E71CCD13600042F055 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DCF0F51D4538F5000AD055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DCF1061D453933000AD055 /* libgtest.a in Frameworks */,
+				C4DCF1041D453925000AD055 /* libChaosCL.dylib in Frameworks */,
+				C4DCF1051D453925000AD055 /* libChaosCore.dylib in Frameworks */,
+				C4DCF1031D453920000AD055 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FAB1C41CCD12C00042F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FAB1E81CCD13600042F055 /* OpenCL.framework in Frameworks */,
+				C4FAB1E61CCD135A0042F055 /* libChaosCore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4DCF0F91D4538F5000AD055 /* ChaosCLTest */ = {
+			isa = PBXGroup;
+			children = (
+				C4DCF0FA1D4538F5000AD055 /* main.cpp */,
+				C4DCF1081D4539AA000AD055 /* Platform.hpp */,
+				C436A1C11D455445005CA41B /* Device.hpp */,
+				C436A1C31D4571A3005CA41B /* Context.hpp */,
+			);
+			path = ChaosCLTest;
+			sourceTree = "<group>";
+		};
+		C4FAB1BE1CCD12C00042F055 = {
+			isa = PBXGroup;
+			children = (
+				C47711561D480818000D3CCF /* README.md */,
+				C4DCF0F21D453806000AD055 /* libgtest.a */,
+				C4FAB1E71CCD13600042F055 /* OpenCL.framework */,
+				C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */,
+				C4FAB1C91CCD12C00042F055 /* ChaosCL */,
+				C4DCF0F91D4538F5000AD055 /* ChaosCLTest */,
+				C4FAB1C81CCD12C00042F055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4FAB1C81CCD12C00042F055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */,
+				C4DCF0F81D4538F5000AD055 /* ChaosCLTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FAB1C91CCD12C00042F055 /* ChaosCL */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */,
+				C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */,
+				C494DFF71D425E4A00C22E28 /* cl_base.cpp */,
+				C494DFF81D425E4A00C22E28 /* cl_base.hpp */,
+				C494E0031D4261AD00C22E28 /* cl_context.cpp */,
+				C494E0041D4261AD00C22E28 /* cl_context.hpp */,
+				C494DFFF1D425F1600C22E28 /* cl_device.cpp */,
+				C494E0001D425F1600C22E28 /* cl_device.hpp */,
+				C494E00B1D42629900C22E28 /* cl_kernel.cpp */,
+				C494E00C1D42629900C22E28 /* cl_kernel.hpp */,
+				C494DFFB1D425E8400C22E28 /* cl_platform.cpp */,
+				C494DFFC1D425E8400C22E28 /* cl_platform.hpp */,
+				C494E0071D42625500C22E28 /* cl_program.cpp */,
+				C494E0081D42625500C22E28 /* cl_program.hpp */,
+				C47711511D47A67F000D3CCF /* Env.cpp */,
+				C47711521D47A67F000D3CCF /* Env.hpp */,
+			);
+			path = ChaosCL;
+			sourceTree = "<group>";
+		};
+		C4FAB1DB1CCD132C0042F055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */,
+				C4FAB1E21CCD132C0042F055 /* ChaosCoreTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C4FAB1C51CCD12C00042F055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C494E00A1D42625500C22E28 /* cl_program.hpp in Headers */,
+				C494DFFA1D425E4A00C22E28 /* cl_base.hpp in Headers */,
+				C494E00E1D42629900C22E28 /* cl_kernel.hpp in Headers */,
+				C494E0061D4261AD00C22E28 /* cl_context.hpp in Headers */,
+				C494E0021D425F1600C22E28 /* cl_device.hpp in Headers */,
+				C4FAB1D91CCD13230042F055 /* ChaosCL.hpp in Headers */,
+				C47711541D47A67F000D3CCF /* Env.hpp in Headers */,
+				C494DFFE1D425E8400C22E28 /* cl_platform.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C4DCF0F71D4538F5000AD055 /* ChaosCLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DCF0FC1D4538F5000AD055 /* Build configuration list for PBXNativeTarget "ChaosCLTest" */;
+			buildPhases = (
+				C4DCF0F41D4538F5000AD055 /* Sources */,
+				C4DCF0F51D4538F5000AD055 /* Frameworks */,
+				C4DCF0F61D4538F5000AD055 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DCF1001D453902000AD055 /* PBXTargetDependency */,
+				C4DCF1021D453902000AD055 /* PBXTargetDependency */,
+			);
+			name = ChaosCLTest;
+			productName = ChaosCLTest;
+			productReference = C4DCF0F81D4538F5000AD055 /* ChaosCLTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		C4FAB1C61CCD12C00042F055 /* ChaosCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FAB1D21CCD12C00042F055 /* Build configuration list for PBXNativeTarget "ChaosCL" */;
+			buildPhases = (
+				C4FAB1C31CCD12C00042F055 /* Sources */,
+				C4FAB1C41CCD12C00042F055 /* Frameworks */,
+				C4FAB1C51CCD12C00042F055 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FAB1E51CCD13560042F055 /* PBXTargetDependency */,
+			);
+			name = ChaosCL;
+			productName = ChaosCL;
+			productReference = C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4FAB1BF1CCD12C00042F055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fu Lam Diep";
+				TargetAttributes = {
+					C4DCF0F71D4538F5000AD055 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C4FAB1C61CCD12C00042F055 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C4FAB1C21CCD12C00042F055 /* Build configuration list for PBXProject "ChaosCL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4FAB1BE1CCD12C00042F055;
+			productRefGroup = C4FAB1C81CCD12C00042F055 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C4FAB1DB1CCD132C0042F055 /* Products */;
+					ProjectRef = C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C4FAB1C61CCD12C00042F055 /* ChaosCL */,
+				C4DCF0F71D4538F5000AD055 /* ChaosCLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libChaosCore.dylib;
+			remoteRef = C4FAB1DF1CCD132C0042F055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4FAB1E21CCD132C0042F055 /* ChaosCoreTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ChaosCoreTest;
+			remoteRef = C4FAB1E11CCD132C0042F055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DCF0F41D4538F5000AD055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DCF0FB1D4538F5000AD055 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FAB1C31CCD12C00042F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C494E0011D425F1600C22E28 /* cl_device.cpp in Sources */,
+				C47711531D47A67F000D3CCF /* Env.cpp in Sources */,
+				C494E0051D4261AD00C22E28 /* cl_context.cpp in Sources */,
+				C4FAB1D81CCD13230042F055 /* ChaosCL.cpp in Sources */,
+				C494DFF91D425E4A00C22E28 /* cl_base.cpp in Sources */,
+				C494DFFD1D425E8400C22E28 /* cl_platform.cpp in Sources */,
+				C47711571D480818000D3CCF /* README.md in Sources */,
+				C494E00D1D42629900C22E28 /* cl_kernel.cpp in Sources */,
+				C494E0091D42625500C22E28 /* cl_program.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DCF1001D453902000AD055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FAB1C61CCD12C00042F055 /* ChaosCL */;
+			targetProxy = C4DCF0FF1D453902000AD055 /* PBXContainerItemProxy */;
+		};
+		C4DCF1021D453902000AD055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChaosCore;
+			targetProxy = C4DCF1011D453902000AD055 /* PBXContainerItemProxy */;
+		};
+		C4FAB1E51CCD13560042F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChaosCore;
+			targetProxy = C4FAB1E41CCD13560042F055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4DCF0FD1D4538F5000AD055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4DCF0FE1D4538F5000AD055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4FAB1D01CCD12C00042F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					../ChaosCore,
+					../ChaosCL,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4FAB1D11CCD12C00042F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					../ChaosCore,
+					../ChaosCL,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4FAB1D31CCD12C00042F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4FAB1D41CCD12C00042F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DCF0FC1D4538F5000AD055 /* Build configuration list for PBXNativeTarget "ChaosCLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DCF0FD1D4538F5000AD055 /* Debug */,
+				C4DCF0FE1D4538F5000AD055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FAB1C21CCD12C00042F055 /* Build configuration list for PBXProject "ChaosCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FAB1D01CCD12C00042F055 /* Debug */,
+				C4FAB1D11CCD12C00042F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FAB1D21CCD12C00042F055 /* Build configuration list for PBXNativeTarget "ChaosCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FAB1D31CCD12C00042F055 /* Debug */,
+				C4FAB1D41CCD12C00042F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4FAB1BF1CCD12C00042F055 /* Project object */;
+}

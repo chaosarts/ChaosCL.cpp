@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ChaosCL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ChaosCLTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C4DCF0D21D4536CB000AD055</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4DCF0E31D4537AC000AD055</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4DCF0F71D4538F5000AD055</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4FAB1C61CCD12C00042F055</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
