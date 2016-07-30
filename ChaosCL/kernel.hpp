@@ -9,7 +9,7 @@
 #ifndef cl_kernel_hpp
 #define cl_kernel_hpp
 
-#include "cl_base.hpp"
+#include "base.hpp"
 
 namespace cl
 {

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "17FC4BFE2839FAD84095D034FC61C4687A1B45CF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "656B614F13419EF3DB4660CCF49EAB3898D9F2C5" : 0,
+    "17FC4BFE2839FAD84095D034FC61C4687A1B45CF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F0682EF1-F3C8-4478-B361-4B8C82FAFBF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "656B614F13419EF3DB4660CCF49EAB3898D9F2C5" : "ChaosCore\/",
+    "17FC4BFE2839FAD84095D034FC61C4687A1B45CF" : "ChaosCL\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChaosCL",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChaosCL.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chaosarts\/ChaosCL.cpp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17FC4BFE2839FAD84095D034FC61C4687A1B45CF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chaosarts\/ChaosCore.cpp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "656B614F13419EF3DB4660CCF49EAB3898D9F2C5"
+    }
+  ]
+}

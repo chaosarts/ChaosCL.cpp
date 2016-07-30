@@ -6,7 +6,7 @@
 //  Copyright © 2016 Fu Lam Diep. All rights reserved.
 //
 
-#include "cl_device.hpp"
+#include "device.hpp"
 #include <algorithm>
 
 namespace cl

@@ -1,33 +1,33 @@
 //
-//  Env.cpp
+//  env.cpp
 //  ChaosCL
 //
 //  Created by Fu Lam Diep on 26.07.16.
 //  Copyright © 2016 Fu Lam Diep. All rights reserved.
 //
 
-#include "Env.hpp"
-#include "cl_platform.hpp"
-#include "cl_device.hpp"
+#include "env.hpp"
+#include "platform.hpp"
+#include "device.hpp"
 #include <algorithm>
 
 namespace cl
 {
-	Env::Env () : m_initialized(false), m_initErrcode(CL_SUCCESS),
+	env::env () : m_initialized(false), m_initErrcode(CL_SUCCESS),
 		m_numDevices(0), m_platform(NULL), m_devices(NULL), m_context(NULL)
 	{
 		
 	}
 	
 	
-	Env::~Env ()
+	env::~env ()
 	{
 		if (m_devices != nullptr) free(m_devices);
 		clSafeReleaseContext(m_context);
 	}
 	
 	
-	cl_int Env::init ()
+	cl_int env::init ()
 	{
 		if (!m_initialized)
 		{
@@ -63,25 +63,25 @@ namespace cl
 	}
 	
 	
-	cl_uint Env::platformIndex () const
+	cl_uint env::platformIndex () const
 	{
 		return 0;
 	}
 	
 	
-	cl_device_type Env::deviceType() const
+	cl_device_type env::deviceType() const
 	{
 		return CL_DEVICE_TYPE_ALL;
 	}
 	
 	
-	cl_uint Env::numDevices () const
+	cl_uint env::numDevices () const
 	{
 		return m_numDevices;
 	}
 	
 	
-	cl_context Env::context () const
+	cl_context env::context () const
 	{
 		return m_context;
 	}

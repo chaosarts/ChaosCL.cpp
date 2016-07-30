@@ -9,8 +9,8 @@
 #ifndef platform_hpp
 #define platform_hpp
 
-#include <ChaosCL/cl_base.hpp>
-#include <ChaosCL/cl_platform.hpp>
+#include <ChaosCL/base.hpp>
+#include <ChaosCL/platform.hpp>
 #include <gtest/gtest.h>
 
 class Platform : public virtual testing::Test

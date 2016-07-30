@@ -9,7 +9,7 @@
 #ifndef cl_device_hpp
 #define cl_device_hpp
 
-#include "cl_base.hpp"
+#include "base.hpp"
 
 namespace cl
 {

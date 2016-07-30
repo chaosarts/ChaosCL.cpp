@@ -10,7 +10,7 @@
 #define Device_hpp
 
 #include "Platform.hpp"
-#include <ChaosCL/cl_device.hpp>
+#include <ChaosCL/device.hpp>
 
 class Device : public virtual Platform
 {

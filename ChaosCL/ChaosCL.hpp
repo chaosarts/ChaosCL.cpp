@@ -9,12 +9,12 @@
 
 #ifndef ChaosCL_hpp
 #define ChaosCL_hpp
-
-#include "cl_base.hpp"
-#include "cl_platform.hpp"
-#include "cl_device.hpp"
-#include "cl_context.hpp"
-#include "cl_program.hpp"
-#include "cl_kernel.hpp"
+#include <ChaosCore/Chaos
+#include "base.hpp"
+#include "platform.hpp"
+#include "device.hpp"
+#include "context.hpp"
+#include "program.hpp"
+#include "kernel.hpp"
 
 #endif

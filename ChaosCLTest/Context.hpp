@@ -10,7 +10,7 @@
 #define Context_h
 
 #include "Device.hpp"
-#include <ChaosCL/cl_context.hpp>
+#include <ChaosCL/context.hpp>
 
 class Context : public virtual Device
 {

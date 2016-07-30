@@ -6,7 +6,7 @@
 //  Copyright © 2016 Fu Lam Diep. All rights reserved.
 //
 
-#include "cl_base.hpp"
+#include "base.hpp"
 
 namespace cl
 {
@@ -147,6 +147,9 @@ namespace cl
 	}
 	
 	
+	
+	
+	
 	const char* to_string (cl_uint pname)
 	{
 		switch (pname)
@@ -260,8 +263,12 @@ namespace cl
 				return __exprToStr(CL_DEVICE_QUEUE_PROPERTIES);
 			case CL_DEVICE_SINGLE_FP_CONFIG:
 				return __exprToStr(CL_DEVICE_SINGLE_FP_CONFIG);
+			case CL_GLOBAL:
+				return __exprToStr(CL_GLOBAL);
+			case CL_LOCAL:
+				return __exprToStr(CL_LOCAL);
 			default:
-				return "Unknown device info parameter.";
+				return "Unknown info parameter.";
 		}
 	}
 }

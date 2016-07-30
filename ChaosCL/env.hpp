@@ -1,32 +1,32 @@
 //
-//  Env.hpp
+//  env.hpp
 //  ChaosCL
 //
 //  Created by Fu Lam Diep on 26.07.16.
 //  Copyright © 2016 Fu Lam Diep. All rights reserved.
 //
 
-#ifndef ChaosCL_Env_hpp
-#define ChaosCL_Env_hpp
+#ifndef ChaosCL_env_hpp
+#define ChaosCL_env_hpp
 
-#include "cl_base.hpp"
+#include "base.hpp"
 
 namespace cl
 {
-	class Env
+	struct env
 	{
 	public:
 		
 		/**
 		 * @brief Creates a new environment object
 		 */
-		Env ();
+		env ();
 		
 		
 		/**
 		 * @brief Destroys the environment object
 		 */
-		virtual ~Env ();
+		virtual ~env ();
 		
 		/**
 		 * @brief Initializes the environment
@@ -91,4 +91,4 @@ namespace cl
 	};
 }
 
-#endif /* ChaosCL_Env_hpp */
+#endif /* ChaosCL_env_hpp */

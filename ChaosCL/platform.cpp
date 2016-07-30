@@ -6,7 +6,7 @@
 //  Copyright © 2016 Fu Lam Diep. All rights reserved.
 //
 
-#include "cl_platform.hpp"
+#include "platform.hpp"
 #include <algorithm>
 
 namespace cl
@@ -44,7 +44,7 @@ namespace cl
 		if (platformCount == 0)
 			return CL_INVALID_VALUE;
 		
-		const cl_uint i = std::min(platformCount - 1, index + 1);
+		const cl_uint i = std::min(platformCount, index + 1);
 		cl_platform_id* p = platforms ();
 		platform = p[i - 1];
 		return CL_SUCCESS;

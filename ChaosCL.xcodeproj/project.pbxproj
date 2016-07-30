@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C47711531D47A67F000D3CCF /* Env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47711511D47A67F000D3CCF /* Env.cpp */; };
-		C47711541D47A67F000D3CCF /* Env.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C47711521D47A67F000D3CCF /* Env.hpp */; };
+		C47711531D47A67F000D3CCF /* env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47711511D47A67F000D3CCF /* env.cpp */; };
+		C47711541D47A67F000D3CCF /* env.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C47711521D47A67F000D3CCF /* env.hpp */; };
 		C47711571D480818000D3CCF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C47711561D480818000D3CCF /* README.md */; };
-		C494DFF91D425E4A00C22E28 /* cl_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFF71D425E4A00C22E28 /* cl_base.cpp */; };
-		C494DFFA1D425E4A00C22E28 /* cl_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFF81D425E4A00C22E28 /* cl_base.hpp */; };
-		C494DFFD1D425E8400C22E28 /* cl_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFB1D425E8400C22E28 /* cl_platform.cpp */; };
-		C494DFFE1D425E8400C22E28 /* cl_platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFFC1D425E8400C22E28 /* cl_platform.hpp */; };
-		C494E0011D425F1600C22E28 /* cl_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFF1D425F1600C22E28 /* cl_device.cpp */; };
-		C494E0021D425F1600C22E28 /* cl_device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0001D425F1600C22E28 /* cl_device.hpp */; };
-		C494E0051D4261AD00C22E28 /* cl_context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0031D4261AD00C22E28 /* cl_context.cpp */; };
-		C494E0061D4261AD00C22E28 /* cl_context.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0041D4261AD00C22E28 /* cl_context.hpp */; };
-		C494E0091D42625500C22E28 /* cl_program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0071D42625500C22E28 /* cl_program.cpp */; };
-		C494E00A1D42625500C22E28 /* cl_program.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0081D42625500C22E28 /* cl_program.hpp */; };
-		C494E00D1D42629900C22E28 /* cl_kernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E00B1D42629900C22E28 /* cl_kernel.cpp */; };
-		C494E00E1D42629900C22E28 /* cl_kernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E00C1D42629900C22E28 /* cl_kernel.hpp */; };
+		C494DFF91D425E4A00C22E28 /* base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFF71D425E4A00C22E28 /* base.cpp */; };
+		C494DFFA1D425E4A00C22E28 /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFF81D425E4A00C22E28 /* base.hpp */; };
+		C494DFFD1D425E8400C22E28 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFB1D425E8400C22E28 /* platform.cpp */; };
+		C494DFFE1D425E8400C22E28 /* platform.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494DFFC1D425E8400C22E28 /* platform.hpp */; };
+		C494E0011D425F1600C22E28 /* device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494DFFF1D425F1600C22E28 /* device.cpp */; };
+		C494E0021D425F1600C22E28 /* device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0001D425F1600C22E28 /* device.hpp */; };
+		C494E0051D4261AD00C22E28 /* context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0031D4261AD00C22E28 /* context.cpp */; };
+		C494E0061D4261AD00C22E28 /* context.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0041D4261AD00C22E28 /* context.hpp */; };
+		C494E0091D42625500C22E28 /* program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E0071D42625500C22E28 /* program.cpp */; };
+		C494E00A1D42625500C22E28 /* program.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E0081D42625500C22E28 /* program.hpp */; };
+		C494E00D1D42629900C22E28 /* kernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C494E00B1D42629900C22E28 /* kernel.cpp */; };
+		C494E00E1D42629900C22E28 /* kernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C494E00C1D42629900C22E28 /* kernel.hpp */; };
 		C4DCF0FB1D4538F5000AD055 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4DCF0FA1D4538F5000AD055 /* main.cpp */; };
 		C4DCF1031D453920000AD055 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E71CCD13600042F055 /* OpenCL.framework */; };
 		C4DCF1041D453925000AD055 /* libChaosCL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */; };
 		C4DCF1051D453925000AD055 /* libChaosCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */; };
 		C4DCF1061D453933000AD055 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DCF0F21D453806000AD055 /* libgtest.a */; };
-		C4FAB1D81CCD13230042F055 /* ChaosCL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */; };
 		C4FAB1D91CCD13230042F055 /* ChaosCL.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */; };
 		C4FAB1E61CCD135A0042F055 /* libChaosCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E01CCD132C0042F055 /* libChaosCore.dylib */; };
 		C4FAB1E81CCD13600042F055 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FAB1E71CCD13600042F055 /* OpenCL.framework */; };
@@ -86,28 +85,27 @@
 /* Begin PBXFileReference section */
 		C436A1C11D455445005CA41B /* Device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Device.hpp; sourceTree = "<group>"; };
 		C436A1C31D4571A3005CA41B /* Context.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Context.hpp; sourceTree = "<group>"; };
-		C47711511D47A67F000D3CCF /* Env.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Env.cpp; sourceTree = "<group>"; };
-		C47711521D47A67F000D3CCF /* Env.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Env.hpp; sourceTree = "<group>"; };
+		C47711511D47A67F000D3CCF /* env.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = env.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C47711521D47A67F000D3CCF /* env.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = env.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		C47711561D480818000D3CCF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C494DFF71D425E4A00C22E28 /* cl_base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_base.cpp; sourceTree = "<group>"; };
-		C494DFF81D425E4A00C22E28 /* cl_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_base.hpp; sourceTree = "<group>"; };
-		C494DFFB1D425E8400C22E28 /* cl_platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_platform.cpp; sourceTree = "<group>"; };
-		C494DFFC1D425E8400C22E28 /* cl_platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_platform.hpp; sourceTree = "<group>"; };
-		C494DFFF1D425F1600C22E28 /* cl_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_device.cpp; sourceTree = "<group>"; };
-		C494E0001D425F1600C22E28 /* cl_device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_device.hpp; sourceTree = "<group>"; };
-		C494E0031D4261AD00C22E28 /* cl_context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_context.cpp; sourceTree = "<group>"; };
-		C494E0041D4261AD00C22E28 /* cl_context.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_context.hpp; sourceTree = "<group>"; };
-		C494E0071D42625500C22E28 /* cl_program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_program.cpp; sourceTree = "<group>"; };
-		C494E0081D42625500C22E28 /* cl_program.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_program.hpp; sourceTree = "<group>"; };
-		C494E00B1D42629900C22E28 /* cl_kernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cl_kernel.cpp; sourceTree = "<group>"; };
-		C494E00C1D42629900C22E28 /* cl_kernel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl_kernel.hpp; sourceTree = "<group>"; };
+		C494DFF71D425E4A00C22E28 /* base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = base.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494DFF81D425E4A00C22E28 /* base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base.hpp; sourceTree = "<group>"; };
+		C494DFFB1D425E8400C22E28 /* platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = platform.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494DFFC1D425E8400C22E28 /* platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = platform.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494DFFF1D425F1600C22E28 /* device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = device.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E0001D425F1600C22E28 /* device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = device.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E0031D4261AD00C22E28 /* context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = context.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E0041D4261AD00C22E28 /* context.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = context.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E0071D42625500C22E28 /* program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = program.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E0081D42625500C22E28 /* program.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = program.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E00B1D42629900C22E28 /* kernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = kernel.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C494E00C1D42629900C22E28 /* kernel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = kernel.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		C4DCF0F21D453806000AD055 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../../../../../../opt/local/lib/libgtest.a; sourceTree = "<group>"; };
 		C4DCF0F81D4538F5000AD055 /* ChaosCLTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChaosCLTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DCF0FA1D4538F5000AD055 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4DCF1081D4539AA000AD055 /* Platform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Platform.hpp; sourceTree = "<group>"; };
 		C4FAB1C71CCD12C00042F055 /* libChaosCL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libChaosCL.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChaosCL.cpp; sourceTree = "<group>"; };
-		C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChaosCL.hpp; sourceTree = "<group>"; };
+		C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; lineEnding = 0; path = ChaosCL.hpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		C4FAB1DA1CCD132C0042F055 /* ChaosCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChaosCore.xcodeproj; path = ../ChaosCore/ChaosCore.xcodeproj; sourceTree = "<group>"; };
 		C4FAB1E71CCD13600042F055 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -172,22 +170,21 @@
 		C4FAB1C91CCD12C00042F055 /* ChaosCL */ = {
 			isa = PBXGroup;
 			children = (
-				C4FAB1D61CCD13230042F055 /* ChaosCL.cpp */,
 				C4FAB1D71CCD13230042F055 /* ChaosCL.hpp */,
-				C494DFF71D425E4A00C22E28 /* cl_base.cpp */,
-				C494DFF81D425E4A00C22E28 /* cl_base.hpp */,
-				C494E0031D4261AD00C22E28 /* cl_context.cpp */,
-				C494E0041D4261AD00C22E28 /* cl_context.hpp */,
-				C494DFFF1D425F1600C22E28 /* cl_device.cpp */,
-				C494E0001D425F1600C22E28 /* cl_device.hpp */,
-				C494E00B1D42629900C22E28 /* cl_kernel.cpp */,
-				C494E00C1D42629900C22E28 /* cl_kernel.hpp */,
-				C494DFFB1D425E8400C22E28 /* cl_platform.cpp */,
-				C494DFFC1D425E8400C22E28 /* cl_platform.hpp */,
-				C494E0071D42625500C22E28 /* cl_program.cpp */,
-				C494E0081D42625500C22E28 /* cl_program.hpp */,
-				C47711511D47A67F000D3CCF /* Env.cpp */,
-				C47711521D47A67F000D3CCF /* Env.hpp */,
+				C494DFF71D425E4A00C22E28 /* base.cpp */,
+				C494DFF81D425E4A00C22E28 /* base.hpp */,
+				C494E0031D4261AD00C22E28 /* context.cpp */,
+				C494E0041D4261AD00C22E28 /* context.hpp */,
+				C494DFFF1D425F1600C22E28 /* device.cpp */,
+				C494E0001D425F1600C22E28 /* device.hpp */,
+				C494E00B1D42629900C22E28 /* kernel.cpp */,
+				C494E00C1D42629900C22E28 /* kernel.hpp */,
+				C494DFFB1D425E8400C22E28 /* platform.cpp */,
+				C494DFFC1D425E8400C22E28 /* platform.hpp */,
+				C494E0071D42625500C22E28 /* program.cpp */,
+				C494E0081D42625500C22E28 /* program.hpp */,
+				C47711511D47A67F000D3CCF /* env.cpp */,
+				C47711521D47A67F000D3CCF /* env.hpp */,
 			);
 			path = ChaosCL;
 			sourceTree = "<group>";
@@ -208,14 +205,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C494E00A1D42625500C22E28 /* cl_program.hpp in Headers */,
-				C494DFFA1D425E4A00C22E28 /* cl_base.hpp in Headers */,
-				C494E00E1D42629900C22E28 /* cl_kernel.hpp in Headers */,
-				C494E0061D4261AD00C22E28 /* cl_context.hpp in Headers */,
-				C494E0021D425F1600C22E28 /* cl_device.hpp in Headers */,
+				C494E00A1D42625500C22E28 /* program.hpp in Headers */,
+				C494DFFA1D425E4A00C22E28 /* base.hpp in Headers */,
+				C494E00E1D42629900C22E28 /* kernel.hpp in Headers */,
+				C494E0061D4261AD00C22E28 /* context.hpp in Headers */,
+				C494E0021D425F1600C22E28 /* device.hpp in Headers */,
 				C4FAB1D91CCD13230042F055 /* ChaosCL.hpp in Headers */,
-				C47711541D47A67F000D3CCF /* Env.hpp in Headers */,
-				C494DFFE1D425E8400C22E28 /* cl_platform.hpp in Headers */,
+				C47711541D47A67F000D3CCF /* env.hpp in Headers */,
+				C494DFFE1D425E8400C22E28 /* platform.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,15 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C494E0011D425F1600C22E28 /* cl_device.cpp in Sources */,
-				C47711531D47A67F000D3CCF /* Env.cpp in Sources */,
-				C494E0051D4261AD00C22E28 /* cl_context.cpp in Sources */,
-				C4FAB1D81CCD13230042F055 /* ChaosCL.cpp in Sources */,
-				C494DFF91D425E4A00C22E28 /* cl_base.cpp in Sources */,
-				C494DFFD1D425E8400C22E28 /* cl_platform.cpp in Sources */,
+				C494E0011D425F1600C22E28 /* device.cpp in Sources */,
+				C47711531D47A67F000D3CCF /* env.cpp in Sources */,
+				C494E0051D4261AD00C22E28 /* context.cpp in Sources */,
+				C494DFF91D425E4A00C22E28 /* base.cpp in Sources */,
+				C494DFFD1D425E8400C22E28 /* platform.cpp in Sources */,
 				C47711571D480818000D3CCF /* README.md in Sources */,
-				C494E00D1D42629900C22E28 /* cl_kernel.cpp in Sources */,
-				C494E0091D42625500C22E28 /* cl_program.cpp in Sources */,
+				C494E00D1D42629900C22E28 /* kernel.cpp in Sources */,
+				C494E0091D42625500C22E28 /* program.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
